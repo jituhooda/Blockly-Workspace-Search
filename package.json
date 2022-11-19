@@ -1,5 +1,5 @@
 {
-  "name": "@blockly/plugin-workspace-search-modified",
+  "name": "blockly-plugin-workspace-search-modified",
   "version": "5.0.22",
   "description": "A Blockly plugin that adds workspace search support.",
   "scripts": {
@@ -52,7 +52,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://wombat-dressing-room.appspot.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "eslintConfig": {
     "extends": "@blockly/eslint-config"
