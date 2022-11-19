@@ -48,13 +48,13 @@ const ARROW_UP_ARROW_SVG_DATAURI =
 const CSS_CONTENT = [
   /* eslint-disable indent */
   'path.blocklyPath.blockly-ws-search-highlight-find {',
-    'fill: #c3c32c;',
+    'fill: black',
   '}',
   'path.blocklyPath.blockly-ws-search-highlight {',
-    'fill: black;',
+    'fill: #c3c32c;',
   '}',
   'path.blocklyPath.blockly-ws-search-highlight.blockly-ws-search-current {',
-    'fill: #c3c32c;',
+    'fill: black;',
   '}',
   '.blockly-ws-search-close-btn {',
     'background: url(' + CLOSE_SVG_DATAURI + ') no-repeat top left;',
