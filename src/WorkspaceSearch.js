@@ -394,11 +394,11 @@ export class WorkspaceSearch {
    */
   onWorkspaceKeyDown_(e) {
     // TODO: Look into handling keyboard shortcuts on workspace in Blockly.
-    if ((e.ctrlKey || e.metaKey) && e.keyCode === Blockly.utils.KeyCodes.F) {
-      this.open();
-      e.preventDefault();
-      e.stopPropagation();
-    }
+    // if ((e.ctrlKey || e.metaKey) && e.keyCode === Blockly.utils.KeyCodes.F) {
+    //   this.open();
+    //   e.preventDefault();
+    //   e.stopPropagation();
+    // }
   }
 
   /**
